@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\prana\\OneDrive\\Pranaav\\WebDev\\C#\\MyFirstProject\\",
+  "WorkspaceRootPath": "C:\\Users\\prana\\OneDrive\\Pranaav\\WebDev\\C#\\MyFirstProject\\MyFirstProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B54DE789-5E7E-4648-B0EC-A9E3A39A515C}|MyFirstProject\\MyFirstProject.csproj|c:\\users\\prana\\onedrive\\pranaav\\webdev\\c#\\myfirstproject\\myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B54DE789-5E7E-4648-B0EC-A9E3A39A515C}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\prana\\OneDrive\\Pranaav\\WebDev\\C#\\MyFirstProject\\MyFirstProject\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,12 +21,12 @@
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\prana\\OneDrive\\Pranaav\\WebDev\\C#\\MyFirstProject\\MyFirstProject\\Program.cs",
-              "RelativeDocumentMoniker": "MyFirstProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\prana\\OneDrive\\Pranaav\\WebDev\\C#\\MyFirstProject\\MyFirstProject\\Program.cs",
-              "RelativeToolTip": "MyFirstProject\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T17:30:19.471Z",
+              "WhenOpened": "2024-10-17T17:57:25.637Z",
               "EditorCaption": ""
             }
           ]

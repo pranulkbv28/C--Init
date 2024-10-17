@@ -10,9 +10,20 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
-            int num = 2;
+            int num = 2;            
+            string letter = "a";
 
-            Console.WriteLine(num);
+            // Other data types
+            /*
+             * char -> here, the value should be inside single quotes
+             * long -> this is just a bigger data type than "int"
+             * double -> this is a way to declare a decimal
+             * float -> if your precision isn't very strict use "float"
+             */
+
+
+
+            Console.WriteLine(letter + num);
 
             Console.ReadLine();
         }
