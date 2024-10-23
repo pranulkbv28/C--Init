@@ -1,7 +1,0 @@
-C:\Users\prana\OneDrive\Pranaav\WebDev\C#\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.exe.config
-C:\Users\prana\OneDrive\Pranaav\WebDev\C#\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.exe
-C:\Users\prana\OneDrive\Pranaav\WebDev\C#\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.pdb
-C:\Users\prana\OneDrive\Pranaav\WebDev\C#\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.csproj.AssemblyReference.cache
-C:\Users\prana\OneDrive\Pranaav\WebDev\C#\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.csproj.CoreCompileInputs.cache
-C:\Users\prana\OneDrive\Pranaav\WebDev\C#\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.exe
-C:\Users\prana\OneDrive\Pranaav\WebDev\C#\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.pdb
