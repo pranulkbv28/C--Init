@@ -6,6 +6,34 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
+public class Animal
+{
+    public void Eat()
+    {
+        Console.WriteLine("Every animal eats something.");
+    }
+    public virtual void Sound()
+    {
+        Console.WriteLine("Every animal makes a sound.");
+    }
+}
+
+class Dog : Animal
+{
+    public override void Sound()
+    {
+        Console.WriteLine("Dog barks.");
+    }
+}
+
+class Cat : Animal
+{
+    public override void Sound()
+    {
+        Console.WriteLine("Cat meows.");
+    }
+}
+
 namespace MyFirstProject
 {
     internal class Program
@@ -190,7 +218,7 @@ namespace MyFirstProject
 
             Console.WriteLine("These are your array's elements");
 
-            for (int i = 0; i< len; i++)
+            for (int i = 0; i < len; i++)
             {
                 Console.Write($"{arr[i]} ");
             }
@@ -230,7 +258,7 @@ namespace MyFirstProject
             List<int> listNumbers = new List<int>()
             {
                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-            } ; // if needed, we can also add a capacity of the List. What tthis does itm it initialses the list with that particular size.
+            }; // if needed, we can also add a capacity of the List. What tthis does itm it initialses the list with that particular size.
             //listNumbers.Add(1);
             //listNumbers.Add(2);
             //listNumbers.Add(3);
@@ -258,9 +286,20 @@ namespace MyFirstProject
 
                 Console.WriteLine($"{pair.Key} - {pair.Value}");
             }
-
-
         }
+
+        public static void OOPsTutorial()
+        {
+            Animal a = new Animal();
+            Dog dog = new Dog();
+            Cat cat = new Cat();
+
+            a.Eat();
+            a.Sound();
+            dog.Sound();
+            cat.Sound();
+        }
+
         static void Main(string[] args)
         {
 
@@ -270,10 +309,11 @@ namespace MyFirstProject
             {
                 Console.WriteLine("1. Just basics");
                 Console.WriteLine("2. Mini Games");
+                Console.WriteLine("3. OOPs Tutorial");
                 Console.Write("Choose what you want to start: ");
                 string choice = Console.ReadLine();
 
-                bool rightChoice = int.TryParse(choice, out int result);                
+                bool rightChoice = int.TryParse(choice, out int result);
 
                 if (rightChoice)
                 {
@@ -302,11 +342,11 @@ namespace MyFirstProject
                                 {
                                     case 1:
                                         mg.TablesGame();
-                                        start = false;                                       
+                                        start = false;
                                         break;
                                     case 2:
                                         mg.FizzBuzzGame();
-                                        start = false;                                        
+                                        start = false;
                                         break;
                                     case 3:
                                         mg.ReverseString();
@@ -323,6 +363,9 @@ namespace MyFirstProject
                             }
                             Console.WriteLine();
                             MiniGames.ExitMessage(result);
+                            break;
+                        case 3:
+                            OOPsTutorial();
                             break;
                         default:
                             Console.WriteLine("Enter the right option.");
